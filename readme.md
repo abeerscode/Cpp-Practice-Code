@@ -7,29 +7,29 @@
 5. git remote add origin https://github.com/githubUsername/FileName.git --> Add your GitHub remote
 6. git push -u origin main --> Push your code to GitHub
 
-# Commit and Push
+# Commit Push Pull
 
-1. git add.
-2. git commit -m "comments"
-3. git push origin main
+1. git remote -v --> Check linked Repositor
+2. git add.
+3. git commit -m "comments"
+4. git push origin main
+5. git pull
 
-#Check linked Repositor --> git remote -v
+# Delete Folder & File
 
-#Delete file from Git --> git rm filename
+1.  git rm filename --> Delete file from Git
+2.  git rm -r foldername --> Delete folder from Git
+3.  git rm --cached filename --> Delete from Git, keep locally
+4.  git rm -r --cached foldername --> Delete from Git, keep locally
+5.  git commit -m "Delete ..." --> Commit deletion
 
-#Delete folder from Git --> git rm -r foldername
+# Clone a GitHub Repository
 
-#Delete from Git, keep locally --> git rm --cached filename / git rm -r --cached foldername
+    1.	git clone https://github.com/githubUsername/RepoName.git –> Download the repo and set up Git locally
+    2.	cd RepoName –> Move into the cloned folder
+    3.	git pull –> Update your local copy with the latest changes from GitHub
 
-#Commit deletion --> git commit -m "Delete ..."
-
-#Push to remote --> git push
-
-#Update repo --> git pull
-
-#Always clone your GitHub repo instead of manually creating a folder: git clone https://github.com//.git
-
-#run command
+# Run a C++ Program
 
 1.  g++ FileName.cpp -o FileName
 2.  ./FileName
