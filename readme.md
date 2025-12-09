@@ -1,21 +1,17 @@
-#run command
+# Only once for the first commit in a new repository
 
-1.  g++ FileName.cpp -o FileName
-2.  ./FileName
+1. git init --> Initialize Git (if not already)
+2. git add . --> Add all files in the folder
+3. git commit -m "Initial commit" --> Commit your files
+4. git branch -M main --> Rename your local branch to 'main'
+5. git remote add origin https://github.com/githubUsername/FileName.git --> Add your GitHub remote
+6. git push -u origin main --> Push your code to GitHub
 
-#Commit and Push
+# Commit and Push
 
-1. git remote -v ---> Make sure it’s linked
-2. git add . ---> Stage your new project
-3. git commit -m "comments" ---> Save commit
-4. git push origin main ---> Upload to GitHub
-
-#Always clone your GitHub repo instead of manually creating a folder: git clone https://github.com//.git
-
-1. rm ptc1
-2. git add -A
-3. git commit -m "comments"
-4. git push
+1. git add.
+2. git commit -m "comments"
+3. git push origin main
 
 #Check linked Repositor --> git remote -v
 
@@ -30,3 +26,10 @@
 #Push to remote --> git push
 
 #Update repo --> git pull
+
+#Always clone your GitHub repo instead of manually creating a folder: git clone https://github.com//.git
+
+#run command
+
+1.  g++ FileName.cpp -o FileName
+2.  ./FileName
