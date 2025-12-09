@@ -1,2 +1,4 @@
-#run command --> g++ FileName.cpp -o FileName
-./FileName
+#run command:
+
+1.  g++ FileName.cpp -o FileName
+2.  ./FileName
