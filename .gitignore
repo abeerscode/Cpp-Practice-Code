@@ -1,10 +1,3 @@
-# Ignore all files without extension (common C/C++ binaries)
-*
-!.cpp
-!.gitignore
-!readme.md
-
-# Then ignore build outputs
 *.out
 *.o
 *.obj
@@ -16,9 +9,12 @@
 *.dSYM/
 *.h
 *.hpp
-*makefile
-*Makefile
+makefile
+Makefile
 
-# Ignore any extensionless compiled file
-*/   # keep folders
-!*.* # keep files with extensions
+# Ignore everything else
+*
+# Except these files
+!*.cpp
+!.gitignore
+!readme.md
