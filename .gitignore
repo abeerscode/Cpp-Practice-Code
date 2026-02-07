@@ -1,3 +1,10 @@
+# Ignore everything else
+*
+# Except these files
+!*.cpp
+!.gitignore
+!readme.md
+
 *.out
 *.o
 *.obj
@@ -12,9 +19,3 @@
 makefile
 Makefile
 
-# Ignore everything else
-*
-# Except these files
-!*.cpp
-!.gitignore
-!readme.md
